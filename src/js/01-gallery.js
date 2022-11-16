@@ -11,7 +11,6 @@ const imagesMarkup = createGalleryMarkup(galleryItems);
 
 galleryContainer.insertAdjacentHTML('beforeend', imagesMarkup);
 
-
 function createGalleryMarkup(galleryItems) {
     return galleryItems
         .map(({ preview, original, description }) => {
